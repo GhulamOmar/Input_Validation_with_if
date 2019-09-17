@@ -11,7 +11,7 @@ import unittest.mock as result
 class MyTestCase(unittest.TestCase):
 
     def test_average(self):
-        with result.patch('builtins.input', side_effect=[-1, -2, 2]):
+        with result.patch('builtins.input', side_effect=[-1, -2, -2]):
             assert validation_with_if.average() == -0.3333333333333333
 
 
