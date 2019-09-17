@@ -1,8 +1,8 @@
 """
-Program: test.py
+Program: test_validation_with_if.py
 Author: Ghulam Omar
-Last date modified: 09/10/19
-This tests the program for average_score.py.
+Last date modified: 09/17/19
+This tests the program for validation_with_if.py with if validation
 """
 import unittest
 from input_validation import validation_with_if
