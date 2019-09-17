@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_average(self):
         with result.patch('builtins.input', side_effect=[-1, -2, -2]):
-            assert validation_with_if.average() == -0.3333333333333333
+            assert validation_with_if.average() == -1.6666666666666667
 
 
 
